@@ -88,6 +88,7 @@ def current_player
   def position_taken?(location)
     !(position(location).nil? || position(location) == " ")
   end
+end
   # def play
   #   while !over?
   #     turn
@@ -99,4 +100,3 @@ def current_player
   #   end
   # end
 
-end
